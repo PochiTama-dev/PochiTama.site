@@ -83,23 +83,22 @@ const contact = `
 <form class="contactForm" autocomplete="off" action="https://getform.io/f/566cb1ba-bdff-4158-93b7-0ed82642b0e7" method="POST">
     <legend class="section-header">Formulario de contacto</legend>
     <div class="input-group">
+	<label for="name" class="input-label">Nombre</label>
         <input class="contactInput" type="text" name="name" id="name" required class="input">
-        <label for="name" class="input-label">Nombre</label>
         <span class="errorsMsg"></span>
     </div>
     <div class="input-group">
+	    <label for="email" class="input-label">Email</label>
         <input class="contactInput" type="text" name="email" id="email" required class="input">
-        <label for="email" class="input-label">Email</label>
         <span class="errorsMsg"></span>
     </div>
     <div class="input-group">
+	    <label for="phone" class="input-label">Telefono</label>
         <input class="contactInput" type="text" name="phone" id="phone" required class="input">
-        <label for="phone" class="input-label">Telefono</label>
         <span class="errorsMsg"></span>
     </div>
     <div class="input-group">
-        <textarea class="contactInput" name="msg" cols="30" rows="10" id="mensaje" required class="input"></textarea>
-        <label for="message" class="input-label">Mensaje</label>
+        <textarea class="contactInput" name="msg" cols="30" rows="10" id="mensaje" required class="input" placeholder= "Mensaje"></textarea>
         <span class="errorsMsg"></span>
     </div>
     <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
