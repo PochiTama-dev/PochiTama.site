@@ -1,0 +1,202 @@
+#navbar {
+    overflow: hidden;
+    margin-bottom: 50px;
+    z-index: 999;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #AFB1FF;
+    background-color: #0000004d;
+    
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  #navbar a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    background: linear-gradient(to right, #b47dcd, #e878a2, #eb85ab);
+    z-index: 1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  #navbar a:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .menu[data-animation="to-left"] a::before {
+    transform-origin: right;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+    
+    
+    section {
+      position: relative;
+      padding: 30px 0 50px;
+      background: white;
+    }
+    section:last-of-type {
+      min-height: 20vh;
+    }
+    section .focus .page-header {
+      color: #907dda;
+    }
+    section .focus .page-header:after {
+      visibility: visible;
+      opacity: 1;
+    }
+    
+    .section-header {
+      position: relative;
+      margin-bottom: 40px;
+      font-size: 26px;
+      font-weight: 400;
+      color: #333;
+      text-align: center;
+      line-height: 60px;
+      letter-spacing: 1px;
+    }
+    .section-header:after {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      width: 70px;
+      height: 2px;
+      background: #907dda;
+      transform: translate(-50%, 0);
+      transform: translate3d(-50%, 0, 0);
+    }
+    
+    .section-sub-header {
+      position: relative;
+      margin-bottom: 40px;
+      font-size: 22px;
+      font-weight: 300;
+      text-align: center;
+      line-height: 60px;
+      letter-spacing: 1px;
+    }
+    
+    .banner .banner-child {
+      padding: 25px 15px;
+      height: 500px;
+    }
+    .banner .bc-left {
+      color: #e7e6f1;
+      background: #907dda;
+    }
+    .banner .bc-right {
+      color: #333;
+      background: #F3F4F8;
+    }
+    
+    .page-header {
+      position: relative;
+      margin-top: 0;
+      margin-bottom: 50px;
+      letter-spacing: 1px;
+      color: #333;
+      transition: color 0.2s ease-in;
+    }
+    .page-header:after {
+      visibility: hidden;
+      display: block;
+      content: "Boom!!! got your focus now ay :-)";
+      position: absolute;
+      top: 100%;
+      padding-top: 25px;
+      font-size: 16px;
+      transition: opacity 0.2s ease-in, visibility 0.2s ease-in;
+      opacity: 0;
+    }
+    
+  
+    
+    a.tutorials-link {
+      display: block;
+      position: relative;
+      width: 180px;
+      margin: 0 auto 25px;
+      padding: 15px 0;
+      font-size: 0.875rem;
+      font-weight: 600;
+      text-align: center;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 2px;
+      color: #907dda;
+      border: 2px solid #907dda;
+      transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+    }
+    a.tutorials-link:hover {
+      color: #e7e6f1;
+      background: #907dda;
+      box-shadow: 0 6px 12px -4px rgba(0, 0, 0, 0.3);
+    }
+    
+    .scrollTop {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      width: 44px;
+      height: 44px;
+      text-decoration: none;
+      padding: 0;
+      color: #e7e6f1;
+      background: #907dda;
+      border: none;
+      border-radius: 100%;
+      box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+      transform: translate(0, 80px);
+      transform: translate3d(0, 80px, 0);
+      transition: transform 0.2s ease-in;
+      opacity: 0.7;
+    }
+    .scrollTop:hover {
+      color: #e7e6f1;
+      opacity: 1;
+    }
+    .scrollTop.show-button {
+      transform: translate(0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+    .scrollTop svg {
+      width: 20px;
+      height: 20px;
+      fill: currentColor;
+    }
+    

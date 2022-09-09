@@ -1,0 +1,134 @@
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    min-height: 400px;
+    height: 60vh;
+    padding: 50px 0;
+    background-color:#BBADFF
+  }
+  @media (min-width: 768px) {
+    #home {
+      height: 80vh;
+      min-height: 640px;
+      background-color:#BBADFF ;
+    }
+  }
+  #home:before {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 400px;
+    height: 60vh;
+    background-image: url("../img/LogoFinal.svg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    will-change: transform;
+    z-index: 0;
+  }
+  @media (min-width: 768px) {
+    #home:before {
+      height: 80vh;
+      min-height: 640px;
+    }
+  }
+  #home:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.4));
+    z-index: 0;
+  }
+  #home .container {
+    z-index: 1;
+  }
+  #home .mouse {
+    position: relative;
+    width: calc(28px * 2);
+    height: calc(44px * 2);
+    margin: 0 auto 20px;
+    background: none;
+    border: 2px solid white;
+    border-radius: calc(16px * 2);
+    z-index: 1;
+  }
+  @media (min-width: 768px) {
+    #home .mouse {
+      width: calc(28px * 4);
+      height: calc(44px * 4);
+      margin: 0 auto 30px;
+      background: none;
+      border: 2px solid white;
+      border-radius: calc(16px * 4);
+    }
+  }
+  #home .mouse:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    width: calc(5px * 2);
+    height: calc(5px * 2);
+    background: none;
+    border: 2px solid white;
+    border-radius: 100%;
+    -webkit-animation-name: scrollWheel;
+            animation-name: scrollWheel;
+    -webkit-animation-duration: 1.4s;
+            animation-duration: 1.4s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
+    will-change: transform;
+  }
+  @media (min-width: 768px) {
+    #home .mouse:after {
+      position: absolute;
+      top: 25px;
+      left: 50%;
+      width: calc(5px * 4);
+      height: calc(5px * 4);
+    }
+  }
+  #home h1 {
+    text-align: center;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    color: #e7e6f1;
+  }
+  #home h4 {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    letter-spacing: 2px;
+    color: #907dda;
+  }
+  #home p {
+    margin: 0;
+    padding: 25px 0;
+    text-align: center;
+    text-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5), 1px 1px 3px rgba(0, 0, 0, 0.3);
+    line-height: 26px;
+    color: #e7e6f1;
+  }
+  
+  #about {
+    text-align: center;
+    color: #333;
+    display: flex;
+    justify-content: center;
+  }

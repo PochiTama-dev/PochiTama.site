@@ -1,0 +1,107 @@
+.input-group{
+    position: relative;
+}
+
+.input{
+    padding: 10px;
+    border:none;
+    border-radius: 4px;
+    font: inherit;
+    color:#fff;
+    background-color: transparent;
+    outline: 2px solid #fff;
+}
+
+.input-label{
+    position: absolute;
+    top:0;
+    left: 0;
+    transform: translate(10px,10px);
+    transform-origin: left;
+    transition: transform .25s;
+}
+.input:focus+.input-label,
+.input:valid+.input-label {
+    transform: translate(0px,30px) scale(.8);
+    color: #d1c5fc;
+}
+
+.input:is(:focus, :valid){
+    outline-color: #d1c5fc;
+}
+
+:root {
+    --text: #555;
+    --error: #ff0000;
+    --border: #cdcdcd;
+}
+
+#form {
+    width: 100vw; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form.contactForm {
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+legend.contactTitle {
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--text);
+    padding: 30px;
+}
+
+input.contactInput, textarea.contactInput {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 40px;
+    padding: 0px 10px;
+    border: 2px solid var(--border);
+    border-radius: 3px;
+    
+}
+
+span.errorsMsg {
+    width: 100%;
+    margin-bottom: 20px;
+    color: var(--error);
+    font-size: 12px;
+}
+
+textarea.contactInput {
+    height: auto;
+    padding: 10px;
+}
+
+div.blockSpam {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button.contactBtn {
+    background: none;
+    border: none;
+    outline: none;
+    width: 50%;
+    height: 40px;
+    padding: 0px 10px;
+    border: 2px solid var(--border);
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: var(--text);
+}
+
+input.contactInput::placeholder, textarea.contactInput::placeholder {
+    text-transform: uppercase;
+    font-size: 14px;
+}
