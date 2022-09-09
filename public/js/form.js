@@ -45,7 +45,7 @@ form.addEventListener('submit', (event)=>{
 
    
     grecaptcha.ready(function() {
-        grecaptcha.execute('6Ld9GYYhAAAAAFCO21pdydwaFif03N0CZ1FDIejU', {action: 'homepage'})
+        grecaptcha.execute('6LcFxrghAAAAAPtfrae0g6dGDnzuwPhonZ1_3zk7', {action: 'homepage'})
         .then(function(token) {
             document.getElementById('captchaResponse').value = token;
 
