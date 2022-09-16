@@ -84,21 +84,21 @@ const contact = `
     <legend class="section-header">Formulario de contacto</legend>
     <div class="input-group">
 	<label for="name" class="input-label">Nombre</label>
-        <input class="contactInput" type="text" name="name" id="name" class="input">
+        <input class="contactInput" type="text" name="name" id="name">
         <span class="errorsMsg"></span>
     </div>
     <div class="input-group">
 	    <label for="email" class="input-label">Email</label>
-        <input class="contactInput" type="text" name="email" id="email" class="input">
+        <input class="contactInput" type="text" name="email" id="email">
         <span class="errorsMsg"></span>
     </div>
     <div class="input-group">
 	    <label for="phone" class="input-label">Telefono</label>
-        <input class="contactInput" type="text" name="phone" id="phone" class="input">
+        <input class="contactInput" type="text" name="phone" id="phone">
         <span class="errorsMsg"></span>
     </div>
     <div class="input-group">
-        <textarea class="contactInput" name="msg" cols="30" rows="10" id="mensaje" class="input" placeholder= "Mensaje"></textarea>
+        <textarea class="contactInput" name="msg" cols="30" rows="10" id="mensaje" placeholder= "Mensaje"></textarea>
         <span class="errorsMsg"></span>
     </div>
     <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
