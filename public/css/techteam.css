@@ -100,6 +100,11 @@
     background-image: url("../img/cards-prueba.png");
     transform-origin: left center;
   }
+
+  #nuestro-equipo .video-roll li:first-child(1) {
+    background-image: url("../img/cards-prueba.png");
+    transform-origin: left center;
+  }
   #nuestro-equipo .video-roll li:nth-child(2) {
     flex-basis: 80%;
     z-index: 2;
