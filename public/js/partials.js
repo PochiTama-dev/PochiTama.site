@@ -69,8 +69,11 @@ const nuestroEquipo = `
 				  
 				</div>
 				<div class="content">
-				  <h1>Ulises Armolla</h1>
-				  <h2>level 44</h2>
+				<div class="nombre">
+				<h1>Ulises</h1>
+				<h1>Armolla</h1>
+				</div>
+				  <h2>Back-end Developer</h2>
 		
 				</div>
 	  
@@ -91,8 +94,11 @@ const nuestroEquipo = `
 				  
 				</div>
 				<div class="content">
-				  <h1>Braian Gomez</h1>
-				  <h2>level 27</h2>
+				<div class="nombre">
+				  <h1>Braian</h1>
+				  <h1>Gomez</h1>
+				  </div>
+				  <h2>Front-End Developer</h2>
 				  
 	  
 				</div>
@@ -107,7 +113,25 @@ const nuestroEquipo = `
 				</div>
 			  </div>
 		
-
+			  <div class="card">
+			  <div class="photo">
+			  
+			  </div>
+			  <div class="content">
+				<h1>Jonathan Ibarrola</h1>
+				<h2>Fullstack Developer</h2>
+	  
+			  </div>
+	  
+			  <div class="hability">
+				
+				<div class="sub-hability"><a href=""><i class="fa-brands fa-github"></i></a></div>
+				
+				<div class="sub-hability"><a href=""><i class="fa-brands fa-linkedin"></i></a></div>
+				
+				<div class="sub-hability"><a href=""><i class="fa-solid fa-folder-open"></i></a></div>
+			  </div>
+			</div>
 	</div>
 </div>
 
