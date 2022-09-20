@@ -39,28 +39,32 @@ const nuestroEquipo = `
 	
 	<div class="container glider-contain">
 	
-
 	<div class="cards glider">
 		
+		
 			<div class="card">
-				<div class="photo">
-				
-				</div>
-				<div class="content">
-				  <h1>Gonzalo Enrique</h1>
-				  <h2>Fullstack Developer</h2>
-		
-				</div>
-		
-				<div class="hability">
-				  
-				  <div class="sub-hability"><a href=""><i class="fa-brands fa-github"></i></a></div>
-				  
-				  <div class="sub-hability"><a href=""><i class="fa-brands fa-linkedin"></i></a></div>
-				  
-				  <div class="sub-hability"><a href=""><i class="fa-solid fa-folder-open"></i></a></div>
-				</div>
-			  </div>
+					<div class="photo">
+					
+					</div>
+					<div class="content">
+						<div class="nombre">
+							<h1>Gonzalo</h1>
+							<h1>Gomez</h1>
+						</div>
+						<h2>Front-End Developer</h2>
+						
+
+						</div>
+
+						<div class="hability">
+						
+						<div class="sub-hability"><a href=""><i class="fa-brands fa-github"></i></a></div>
+						
+						<div class="sub-hability"><a href=""><i class="fa-brands fa-linkedin"></i></a></div>
+						
+						<div class="sub-hability"><a href=""><i class="fa-solid fa-folder-open"></i></a></div>
+					</div>
+			</div>
 		
 
 		
@@ -113,29 +117,30 @@ const nuestroEquipo = `
 				</div>
 			  </div>
 		
-			  <div class="card">
-			  <div class="photo">
+				<div class="card">
+				<div class="photo">
+				
+				</div>
+				<div class="content">
+					<h1>Jonathan Ibarrola</h1>
+					<h2>Fullstack Developer</h2>
+		
+				</div>
+		
+				<div class="hability">
+					
+					<div class="sub-hability"><a href=""><i class="fa-brands fa-github"></i></a></div>
+					
+					<div class="sub-hability"><a href=""><i class="fa-brands fa-linkedin"></i></a></div>
+					
+					<div class="sub-hability"><a href=""><i class="fa-solid fa-folder-open"></i></a></div>
+				</div>
+				</div>
 			  
-			  </div>
-			  <div class="content">
-				<h1>Jonathan Ibarrola</h1>
-				<h2>Fullstack Developer</h2>
-	  
-			  </div>
-	  
-			  <div class="hability">
-				
-				<div class="sub-hability"><a href=""><i class="fa-brands fa-github"></i></a></div>
-				
-				<div class="sub-hability"><a href=""><i class="fa-brands fa-linkedin"></i></a></div>
-				
-				<div class="sub-hability"><a href=""><i class="fa-solid fa-folder-open"></i></a></div>
-			  </div>
 			</div>
+			
 			<button aria-label="Previous" class="glider-prev">«</button>
-  <button aria-label="Next" class="glider-next">»</button>
-  <div role="tablist" class="dots"></div>
-	</div>
+  			<button aria-label="Next" class="glider-next">»</button>
 </div>
 
 <!-- /.col -->
