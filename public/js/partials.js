@@ -37,10 +37,10 @@ const nuestroEquipo = `
 		</div><!-- /.col -->
 	</div><!-- /.row -->	
 	
-	<div class="container">
+	<div class="container glider-contain">
 	
 
-	<div class="cards">
+	<div class="cards glider">
 		
 			<div class="card">
 				<div class="photo">
@@ -132,6 +132,9 @@ const nuestroEquipo = `
 				<div class="sub-hability"><a href=""><i class="fa-solid fa-folder-open"></i></a></div>
 			  </div>
 			</div>
+			<button aria-label="Previous" class="glider-prev">«</button>
+  <button aria-label="Next" class="glider-next">»</button>
+  <div role="tablist" class="dots"></div>
 	</div>
 </div>
 
