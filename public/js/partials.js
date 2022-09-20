@@ -28,7 +28,7 @@ const about = `
 <!-- /#about -->`;
 
 const nuestroEquipo = `
-<div class="container">
+<div class="container2">
 	<div class="row">
 		<div class="col-xs-12">
 			<div class="section-header">
@@ -36,15 +36,83 @@ const nuestroEquipo = `
 			</div>
 		</div><!-- /.col -->
 	</div><!-- /.row -->	
-	<div class="row">
-		<div class="video-roll--container col-xs-12">
-			<ul class="video-roll">
-				<li><a href="#" target="_blank"></a></li>
-				<li><a href="#" target="_blank"></a></li>
-				<li><a href="#" target="_blank"></a></li>
-			</ul>				
-		</div><!-- /.col -->
-	</div><!-- /.row -->
+	
+	<div class="container">
+	
+
+	<div class="cards">
+		
+			<div class="card">
+				<div class="photo">
+				
+				</div>
+				<div class="content">
+				  <h1>Gonzalo Enrique</h1>
+				  <h2>Fullstack Developer</h2>
+		
+				</div>
+		
+				<div class="hability">
+				  
+				  <div class="sub-hability"><a href=""><i class="fa-brands fa-github"></i></a></div>
+				  
+				  <div class="sub-hability"><a href=""><i class="fa-brands fa-linkedin"></i></a></div>
+				  
+				  <div class="sub-hability"><a href=""><i class="fa-solid fa-folder-open"></i></a></div>
+				</div>
+			  </div>
+		
+
+		
+			<div class="card">
+				<div class="photo">
+				  
+				</div>
+				<div class="content">
+				  <h1>Ulises Armolla</h1>
+				  <h2>level 44</h2>
+		
+				</div>
+	  
+				<div class="hability">
+				  
+				  <div class="sub-hability"><a href=""><i class="fa-brands fa-github"></i></a></div>
+				  
+				  <div class="sub-hability"><a href=""><i class="fa-brands fa-linkedin"></i></a></div>
+				  
+				  <div class="sub-hability"><a href=""><i class="fa-solid fa-folder-open"></i></a></div>
+				</div>
+			  </div>
+		
+
+		
+			<div class="card">
+				<div class="photo">
+				  
+				</div>
+				<div class="content">
+				  <h1>Braian Gomez</h1>
+				  <h2>level 27</h2>
+				  
+	  
+				</div>
+	  
+				<div class="hability">
+				  
+				  <div class="sub-hability"><a href=""><i class="fa-brands fa-github"></i></a></div>
+				  
+				  <div class="sub-hability"><a href=""><i class="fa-brands fa-linkedin"></i></a></div>
+				  
+				  <div class="sub-hability"><a href=""><i class="fa-solid fa-folder-open"></i></a></div>
+				</div>
+			  </div>
+		
+
+	</div>
+</div>
+
+<!-- /.col -->
+	<!-- /.row -->
 </div><!-- /.container -->`;
 
 const servicios = `
