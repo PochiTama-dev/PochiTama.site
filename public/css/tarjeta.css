@@ -9,6 +9,7 @@
 .card {
     width: 250px;
     height: 200px;
+    margin-bottom: 30px;
     background-color: whitesmoke;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -16,8 +17,14 @@
     flex-direction: column;
     justify-content: center;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 25px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    
-    
+  }
+
+  .glider {
+    display: none;
+  }
+
+  .glider-prev, .glider-next {
+    display: none;
   }
   
   .card .photo {
@@ -192,3 +199,9 @@
       -webkit-transform: translateX(-8px) translateY(8px);
       transform: translateX(-8px) translateY(8px)
     }}
+
+    @media (max-width: 1208px) {
+      .cards {
+        flex-wrap: wrap;
+      }
+    }
