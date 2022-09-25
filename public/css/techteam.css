@@ -194,8 +194,7 @@
     border-radius: 15px;
     border: #AEAED8 solid 5px;
     box-shadow: #D6C1DF 5px 5px 5px;
-    border-top-color: #D6C1DF;
-    border-left-color: #D6C1DF;
+    padding: 0;
 }
 
 .slider__body--show {
@@ -254,21 +253,15 @@
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
     
-    border-top-color: #D6C1DF solid 5px;
 }
 
-/* .hability .sub-hability i{
-    border-radius: 20px;
-    background-color: #AEAED8;
-  } */
 
 .hability .sub-hability a {
     font-size: 30px;
-    color: #f9ff57;
+    color: #F7F2D0;
 }
-hr{
-    text-align: center;
-}
+
+
 .hability .sub-hability i:hover {
     -webkit-animation: shadow-pop-tr .3s cubic-bezier(.6, -.28, .735, .045) both;
     animation: shadow-pop-tr .3s cubic-bezier(.6, -.28, .735, .045) both

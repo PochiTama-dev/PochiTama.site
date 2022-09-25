@@ -45,7 +45,7 @@ const nuestroEquipo = `
                 <div class="slider__texts">
                     <h2 class="subtitle">Hola soy Gonzalo Enrique</h2>
                     <h3 class="subtitle2">Fullstack Developer</h3>
-                    <p class="slider__review">ReactJS || NodeJS || HTML5 || CSS3 || Worpress || RocketLeague || Fornite Romcom</p>
+                    <p class="slider__review">ReactJS || NodeJS || HTML5 || CSS3 || Worpress || RocketLeague || Fornite || Romcom</p>
                         <div class="hability">
                           
                             <div class="sub-hability"><a href=""><i class="fa-brands fa-github"></i></a></div>
