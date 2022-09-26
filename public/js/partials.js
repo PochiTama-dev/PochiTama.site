@@ -28,15 +28,9 @@ const about = `
 <!-- /#about -->`;
 
 const nuestroEquipo = `
-<div class="container2">
-	<div class="row">
-		<div class="col-xs-12">
 			<div class="section-header">
 				Conoce Nuestro Equipo
 			</div>
-		</div><!-- /.col -->
-	</div><!-- /.row -->	
-	
 	<section class="slider">
         <div class="slider__container container">
             <img src="./public/img/arrowLeft.svg" alt="" class="slider__arrow" id="before">
@@ -56,7 +50,7 @@ const nuestroEquipo = `
                 
 
                 <figure class="slider__picture">
-                    <img src="img/power.jpg" alt="" class="slider__img">
+                    <img src="" alt="Gonzalo" class="slider__img">
                 </figure>
             </section>
 
@@ -75,7 +69,7 @@ const nuestroEquipo = `
                 </div>
 
                 <figure class="slider__picture">
-                    <img src="img/ebisu.jpg" alt="" class="slider__img">
+                    <img src="./public/img/tech-team/Ulises.jpeg" alt="Ulises" class="slider__img">
                 </figure>
             </section>
 
@@ -94,7 +88,7 @@ const nuestroEquipo = `
                 </div>
 
                 <figure class="slider__picture">
-                    <img src="img/images (1).jpg" alt="" class="slider__img">
+                    <img src="./public/img/tech-team/Jonathan1.jpeg" alt="Jonathan" class="slider__img">
                 </figure>
             </section>
 
@@ -113,7 +107,7 @@ const nuestroEquipo = `
                 </div>
 
                 <figure class="slider__picture">
-                    <img src="img/Kirby.jpg" alt="" class="slider__img">
+                    <img src="./public/img/tech-team/Braian1.jpeg" alt="" class="slider__img">
                 </figure>
             </section>
 
@@ -126,7 +120,8 @@ const nuestroEquipo = `
 
 <!-- /.col -->
 	<!-- /.row -->
-</div><!-- /.container -->`;
+</div><!-- /.container -->
+`;
 
 const servicios = `
 <div class="container">
