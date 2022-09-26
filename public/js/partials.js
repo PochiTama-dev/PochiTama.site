@@ -28,7 +28,7 @@ const about = `
 <!-- /#about -->`;
 
 const nuestroEquipo = `
-<div class="container">
+<div class="container2">
 	<div class="row">
 		<div class="col-xs-12">
 			<div class="section-header">
@@ -36,15 +36,96 @@ const nuestroEquipo = `
 			</div>
 		</div><!-- /.col -->
 	</div><!-- /.row -->	
-	<div class="row">
-		<div class="video-roll--container col-xs-12">
-			<ul class="video-roll">
-				<li><a href="#" target="_blank"></a></li>
-				<li><a href="#" target="_blank"></a></li>
-				<li><a href="#" target="_blank"></a></li>
-			</ul>				
-		</div><!-- /.col -->
-	</div><!-- /.row -->
+	
+	<section class="slider">
+        <div class="slider__container container">
+            <img src="./public/img/arrowLeft.svg" alt="" class="slider__arrow" id="before">
+
+            <section class="slider__body slider__body--show" data-id="1">
+                <div class="slider__texts">
+                    <h2 class="subtitle">Hola soy Gonzalo Enrique</h2>
+                    <h3 class="subtitle2">Fullstack Developer</h3>
+                    <p class="slider__review">ReactJS || NodeJS || HTML5 || CSS3 || Worpress || RocketLeague || Fornite || Romcom</p>
+                        <div class="hability">
+                          
+                            <div class="sub-hability"><a href=""><i class="fa-brands fa-github"></i></a></div>
+                            <div class="sub-hability"><a href=""><i class="fa-brands fa-linkedin"></i></a></div>
+                            <div class="sub-hability"><a href=""><i class="fa-solid fa-folder-open"></i></a></div>
+                          </div>
+                </div>
+                
+
+                <figure class="slider__picture">
+                    <img src="img/power.jpg" alt="" class="slider__img">
+                </figure>
+            </section>
+
+            <section class="slider__body" data-id="2">
+                <div class="slider__texts">
+                    <h2 class="subtitle">Hola soy Ulises Armolla</h2>
+                    <h3 class="subtitle2">Back-end Developer</h3>
+                    <p class="slider__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id maxime
+                        perspiciatis eveniet, quidem totam porro?</p>
+                        <div class="hability">
+                          
+                            <div class="sub-hability"><a href=""><i class="fa-brands fa-github"></i></a></div>
+                            <div class="sub-hability"><a href=""><i class="fa-brands fa-linkedin"></i></a></div>
+                            <div class="sub-hability"><a href=""><i class="fa-solid fa-folder-open"></i></a></div>
+                          </div>
+                </div>
+
+                <figure class="slider__picture">
+                    <img src="img/ebisu.jpg" alt="" class="slider__img">
+                </figure>
+            </section>
+
+            <section class="slider__body" data-id="3">
+                <div class="slider__texts">
+                    <h2 class="subtitle">Hola soy Jonathan Ibarrola</h2>
+                    <h3 class="subtitle2">Fullstack Developer</h3>
+                    <p class="slider__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id maxime
+                        perspiciatis eveniet, quidem totam porro?</p>
+                        <div class="hability">
+                          
+                            <div class="sub-hability"><a href=""><i class="fa-brands fa-github"></i></a></div>
+                            <div class="sub-hability"><a href=""><i class="fa-brands fa-linkedin"></i></a></div>
+                            <div class="sub-hability"><a href=""><i class="fa-solid fa-folder-open"></i></a></div>
+                          </div>
+                </div>
+
+                <figure class="slider__picture">
+                    <img src="img/images (1).jpg" alt="" class="slider__img">
+                </figure>
+            </section>
+
+            <section class="slider__body" data-id="4">
+                <div class="slider__texts">
+                    <h2 class="subtitle">Hola soy Braian Gomez</h2>
+                    <h3 class="subtitle2">Front-end Developer</h3>
+                    <p class="slider__review">ReactJS || NodeJS || HTML5 || CSS3 || Worpress || Adobe Illustrator || Adobe Photoshop</p>
+                    
+                        <div class="hability">
+                          
+                            <div class="sub-hability"><a href=""><i class="fa-brands fa-github"></i></a></div>
+                            <div class="sub-hability"><a href=""><i class="fa-brands fa-linkedin"></i></a></div>
+                            <div class="sub-hability"><a href=""><i class="fa-solid fa-folder-open"></i></a></div>
+                          </div>
+                </div>
+
+                <figure class="slider__picture">
+                    <img src="img/Kirby.jpg" alt="" class="slider__img">
+                </figure>
+            </section>
+
+            <img src="./public/img/arrowRight.svg" alt="" class="slider__arrow" id="next">
+        </div>
+    </section>
+  <div role="tablist" class="dots"></div>
+	</div>
+</div>
+
+<!-- /.col -->
+	<!-- /.row -->
 </div><!-- /.container -->`;
 
 const servicios = `
