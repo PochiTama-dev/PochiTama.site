@@ -29,7 +29,6 @@
     background-repeat: no-repeat;
     background-position: center bottom;
     will-change: transform;
-    z-index: 0;
   }
   @media (min-width: 768px) {
     #home:before {
