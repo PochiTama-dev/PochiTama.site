@@ -27,8 +27,9 @@ const about = `
 </div><!-- /.container -->
 <!-- /#about -->`;
 
+
 const nuestroEquipo = `
-			<div class="section-header">
+<div class="section-header">
 				Conoce Nuestro Equipo
 			</div>
 	<section class="slider">
@@ -38,77 +39,77 @@ const nuestroEquipo = `
             <section class="slider__body slider__body--show" data-id="1">
                 <div class="slider__texts">
                     <h2 class="subtitle">Hola soy Gonzalo Enrique</h2>
+                    <h4 class="subtitle2">Tech Leader</h4>
                     <h3 class="subtitle2">Fullstack Developer</h3>
-                    <p class="slider__review">ReactJS || NodeJS || HTML5 || CSS3 || Worpress || RocketLeague || Fornite || Romcom</p>
+                    <p class="slider__review">ReactJS || NodeJS || NativeScript || PHP || Worpress || JavaScript || MySQL || AngularJS</p>
                         <div class="hability">
                           
-                            <div class="sub-hability"><a href=""><i class="fa-brands fa-github"></i></a></div>
-                            <div class="sub-hability"><a href=""><i class="fa-brands fa-linkedin"></i></a></div>
-                            <div class="sub-hability"><a href=""><i class="fa-solid fa-folder-open"></i></a></div>
+                            <div class="sub-hability"><a href="https://github.com/GonzaEnrique27"><i class="fa-brands fa-github"></i></a></div>
+                            <div class="sub-hability"><a href="https://www.linkedin.com/feed/?trk=homepage-basic_signin-form_submit"><i class="fa-brands fa-linkedin"></i></a></div>
+                            <div class="sub-hability"><a href="https://gonzaenrique27.github.io/Portfolio-ge/"><i class="fa-solid fa-folder-open"></i></a></div>
                           </div>
                 </div>
-                
-
-                <figure class="slider__picture">
-                    <img src="" alt="Gonzalo" class="slider__img">
-                </figure>
+                <a class="slider__picture">
+                    <img src="./public/img/tech-team/Gonza.png" alt="Gonzalo" class="slider__img">
+                </a>
             </section>
 
             <section class="slider__body" data-id="2">
                 <div class="slider__texts">
                     <h2 class="subtitle">Hola soy Ulises Armolla</h2>
+                    <h4 class="subtitle2">Stakeholder</h4>
                     <h3 class="subtitle2">Back-end Developer</h3>
-                    <p class="slider__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id maxime
-                        perspiciatis eveniet, quidem totam porro?</p>
+                    <p class="slider__review">HTML || CSS || JavaScript || ReactJS || NodeJS || ExpressJS || MySQL || Sequelize || PHP</p>
                         <div class="hability">
                           
-                            <div class="sub-hability"><a href=""><i class="fa-brands fa-github"></i></a></div>
-                            <div class="sub-hability"><a href=""><i class="fa-brands fa-linkedin"></i></a></div>
-                            <div class="sub-hability"><a href=""><i class="fa-solid fa-folder-open"></i></a></div>
+                            <div class="sub-hability"><a href="https://github.com/armolla"><i class="fa-brands fa-github"></i></a></div>
+                            <div class="sub-hability"><a href="https://www.linkedin.com/in/ulisesarmolla/"><i class="fa-brands fa-linkedin"></i></a></div>
+                            <div class="sub-hability"><a href="https://armolla.github.io/"><i class="fa-solid fa-folder-open"></i></a></div>
                           </div>
                 </div>
 
-                <figure class="slider__picture">
+                <a class="slider__picture">
                     <img src="./public/img/tech-team/Ulises.jpeg" alt="Ulises" class="slider__img">
-                </figure>
+                </a>
             </section>
 
             <section class="slider__body" data-id="3">
                 <div class="slider__texts">
                     <h2 class="subtitle">Hola soy Jonathan Ibarrola</h2>
+                    <h4 class="subtitle2">Diseño UX/UI</h4>
                     <h3 class="subtitle2">Fullstack Developer</h3>
-                    <p class="slider__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id maxime
-                        perspiciatis eveniet, quidem totam porro?</p>
+                    <p class="slider__review">HTML || CSS || JavaScript || ReactJS || NodeJS || ExpressJS || MySQL || Sequelize</p>
                         <div class="hability">
                           
-                            <div class="sub-hability"><a href=""><i class="fa-brands fa-github"></i></a></div>
-                            <div class="sub-hability"><a href=""><i class="fa-brands fa-linkedin"></i></a></div>
-                            <div class="sub-hability"><a href=""><i class="fa-solid fa-folder-open"></i></a></div>
+                            <div class="sub-hability"><a href="https://github.com/joni2000"><i class="fa-brands fa-github"></i></a></div>
+                            <div class="sub-hability"><a href="https://www.linkedin.com/in/ibarrola-jonathan/"><i class="fa-brands fa-linkedin"></i></a></div>
+                            <div class="sub-hability"><a href="https://github.com/joni2000"><i class="fa-solid fa-folder-open"></i></a></div>
                           </div>
                 </div>
 
-                <figure class="slider__picture">
+                <a class="slider__picture">
                     <img src="./public/img/tech-team/Jonathan1.jpeg" alt="Jonathan" class="slider__img">
-                </figure>
+                </a>
             </section>
 
             <section class="slider__body" data-id="4">
                 <div class="slider__texts">
                     <h2 class="subtitle">Hola soy Braian Gomez</h2>
+                    <h4 class="subtitle2">Diseño Grafico</h4>
                     <h3 class="subtitle2">Front-end Developer</h3>
                     <p class="slider__review">ReactJS || NodeJS || HTML5 || CSS3 || Worpress || Adobe Illustrator || Adobe Photoshop</p>
                     
                         <div class="hability">
                           
-                            <div class="sub-hability"><a href=""><i class="fa-brands fa-github"></i></a></div>
-                            <div class="sub-hability"><a href=""><i class="fa-brands fa-linkedin"></i></a></div>
-                            <div class="sub-hability"><a href=""><i class="fa-solid fa-folder-open"></i></a></div>
+                            <div class="sub-hability"><a href="https://github.com/BraianGomez9"><i class="fa-brands fa-github"></i></a></div>
+                            <div class="sub-hability"><a href="https://www.linkedin.com/in/braian-nahuel-gomez-9b8730223/"><i class="fa-brands fa-linkedin"></i></a></div>
+                            <div class="sub-hability"><a href="https://github.com/BraianGomez9"><i class="fa-solid fa-folder-open"></i></a></div>
                           </div>
                 </div>
 
-                <figure class="slider__picture">
+                <a class="slider__picture">
                     <img src="./public/img/tech-team/Braian1.jpeg" alt="" class="slider__img">
-                </figure>
+                </a>
             </section>
 
             <img src="./public/img/arrowRight.svg" alt="" class="slider__arrow" id="next">
