@@ -34,7 +34,7 @@ const nuestroEquipo = `
 			</div>
 	<section class="slider">
         <div class="slider__container container">
-            <img src="./public/img/arrowLeft.svg" alt="" class="slider__arrow" id="before">
+            <i class="fa-solid fa-chevron-left" id="before"></i>
 
             <section class="slider__body slider__body--show" data-id="1">
                 <div class="slider__texts">
@@ -112,7 +112,7 @@ const nuestroEquipo = `
                 </a>
             </section>
 
-            <img src="./public/img/arrowRight.svg" alt="" class="slider__arrow" id="next">
+            <i class="fa-solid fa-chevron-right" id="next"></i>
         </div>
     </section>
   <div role="tablist" class="dots"></div>
