@@ -83,7 +83,7 @@ const nuestroEquipo = `
                           
                             <div class="sub-hability"><a href="https://github.com/joni2000"><i class="fa-brands fa-github"></i></a></div>
                             <div class="sub-hability"><a href="https://www.linkedin.com/in/ibarrola-jonathan/"><i class="fa-brands fa-linkedin"></i></a></div>
-                            <div class="sub-hability"><a href="https://github.com/joni2000"><i class="fa-solid fa-folder-open"></i></a></div>
+                            <div class="sub-hability"><a href="https://j-i-portfolio.herokuapp.com/"><i class="fa-solid fa-folder-open"></i></a></div>
                           </div>
                 </div>
 
